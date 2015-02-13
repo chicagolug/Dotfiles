@@ -1,0 +1,18 @@
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+Plugin 'rodjek/vim-puppet'
+Plugin 'tpope/vim-rails.git'
+Plugin 'stephpy/vim-yaml'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-fugitive'
+Plugin 'oblitum/rainbow'
+Plugin 'kien/ctrlp.vim'
+Plugin 'nicwest/QQ.vim'
+Plugin 'The-NERD-Commenter'
+Plugin 'vimux'
+Plugin 'scrooloose/nerdtree'
+call vundle#end()
+filetype plugin indent on 
