@@ -1,8 +1,0 @@
-#!/bin/sh
-VUNDLEDIR=$HOME/.vim/bundle/Vundle.vim
-if [ ! -e $HOME/.vim/bundle/Vundle.vim ]; then
-  git clone https://github.com/gmarik/vundle.git $VUNDLEDIR 
-fi
-  vim -u $HOME/.vimrc.bundles +PluginInstall +qa
-  [ ! -e $HOME/.tmux/plugins/tpm ] && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-
