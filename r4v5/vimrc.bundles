@@ -18,12 +18,10 @@ Plugin 'scrooloose/nerdtree'
 call vundle#end()
 filetype plugin indent on
 
-; Set keybindings 
 map <C-n> :NERDTreeToggle<CR>
 map <Leader>t :CtrlP<CR>
 map <Leader>b :CtrlPBuffer<CR>
 
-; set plugin-specific options
 let g:rainbow_active = 1
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
