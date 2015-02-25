@@ -1,0 +1,6 @@
+Host server_knickname
+       Hostname ip.add.re.ss
+       IdentityFile ~/.ssh/id_rsa
+       IdentitiesOnly yes
+       Port 22323
+       User user_name
